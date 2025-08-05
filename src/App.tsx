@@ -66,6 +66,14 @@ function App() {
 
   return (
     <div className="app">
+      {/* Animated background circles */}
+      <div className="floating-circles">
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+      </div>
+      
       <div className="container">
         <header className="header">
           <h1>Weight Converter</h1>
